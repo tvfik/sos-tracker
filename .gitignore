@@ -1,0 +1,15 @@
+# Arduino / ESP32 build output
+firmware/esp32_tracker/build/
+*.hex
+*.elf
+
+# Python / Streamlit virtual environments & cache
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
